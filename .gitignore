@@ -1,0 +1,3 @@
+# Python extensions for gitignore:
+*.pyc
+*.pyo
