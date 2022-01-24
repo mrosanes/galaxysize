@@ -32,10 +32,12 @@ it is seen from Earth in the Sloan red filter) of the galaxies belonging to each
 4- It stores the results in a Python dictionary, with:  
 &nbsp;&nbsp;&nbsp;&nbsp; 4.1- List of galaxies for each cluster and/or list of field galaxies  
 &nbsp;&nbsp;&nbsp;&nbsp; 4.2- List of parameters for each galaxy: **z, Da, deVRad_r, θ, d**  
-5- It serializes the dictionary using JSON and stores it in a JSON file  
+5- It serializes the dictionary using JSON and stores it in a JSON file   
 
-**GalaxyDistancesCosmo Jupyter-Notebook performs:** 
-1- It loads the JSON files previously created with galaxyclusters.py
-2- It displays 10 galaxies for each cluster with its associated parameters, the final row being the galaxy size in kpc
+**GalaxyDistancesCosmo.ipynb Jupyter-Notebook performs:**  
+1- It loads the JSON files previously created with galaxyclusters.py  
+2- It displays 10 galaxies for each cluster with its associated parameters, the final row being the galaxy size in kpc  
+3- It displays histograms representing the number of galaxies in function of its size  
+4- It computes the mean and the standard deviation of each group of galaxies object (field, specific cluster of galaxies, all)  
 
 
